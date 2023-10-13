@@ -1,0 +1,1 @@
+server bool PB_ArmorPlates_AllowReplacement = true;
