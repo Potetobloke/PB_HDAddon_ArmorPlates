@@ -1,0 +1,5 @@
+[enu default]
+
+TAG_ARMORPLATE = "Composite Armor Plate";
+BLAHBLAH_ARMORPLATE = "Composite Armor Plate.";
+PICKUP_ARMORPLATE = "Picked up an armor plate.";

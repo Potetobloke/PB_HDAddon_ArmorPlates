@@ -1,0 +1,25 @@
+/*
+armor/plates/hit		Sounds/WZPlate/PlateHit.ogg
+armor/plates/break		Sounds/WZPlate/PlateBreak.ogg
+
+$limit armor/plates/hit		0
+$limit armor/plates/break	0
+
+$volume armor/playes/hit 0.5
+$volume armor/plates/break 0.5
+*/
+
+$random armor/plates/hit{armor/plates/hit1 armor/plates/hit1 armor/plates/hit2 armor/plates/hit3 armor/plates/hit4 armor/plates/hit5}
+armor/plates/hit1	Sounds/HL1/PlateHit1.ogg
+armor/plates/hit2	Sounds/HL1/PlateHit2.ogg
+armor/plates/hit3	Sounds/HL1/PlateHit3.ogg
+armor/plates/hit4	Sounds/HL1/PlateHit4.ogg
+armor/plates/hit5	Sounds/HL1/PlateHit5.ogg
+
+armor/plates/break		Sounds/HL1/PlateBreak.ogg
+
+$limit armor/plates/hit		0
+$limit armor/plates/break	0
+
+$volume armor/playes/hit 1.5
+$volume armor/plates/break 0.5
