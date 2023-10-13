@@ -164,7 +164,7 @@ class HDArmorPlate:HDMagAmmo{
 		if(
 			other.player
 			&&other.player.cmd.buttons&BT_USE
-			&&!other.findinventory("HDArmourWorn")
+			&&other.findinventory("HDArmourWorn")
 			&&!other.findinventory("HDArmorPlateWorn")
 			)
 		{
