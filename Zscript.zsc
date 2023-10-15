@@ -426,7 +426,7 @@ class HDArmorPlateWorn:HDArmourWorn{
 			||mod=="claws"
 			||mod=="natural"
 		){
-			resist+=random((alv<<4),100+50*alv);
+			resist+=random((alv<<4),15*alv);
 			if(resist>0){
 				damage-=resist;
 				tobash=min(originaldamage,resist)>>3;
