@@ -584,15 +584,17 @@ class HDArmorPlateWorn:HDArmourWorn{
 		//sometimes slip through a gap
 		int crackseed=int(level.time+angle)&(1|2|4|8|16|32);
 		
+		int armourdamage=0;
+		
 		//No head and leg armor
 		
 		//original values
 		//0.8 head
 		//0.4 legs
 		
-		if(hitheight>0.8){addpenshell=0;}
+		if(hitheight>0.8){addpenshell=-1;armourdamage=0;}
 		
-		else if(hitheight<0.4){addpenshell=0;}
+		else if(hitheight<0.4){addpenshell=-1;armourdamage=0;}
 		
 		else if(
 			crackseed>max(durability,8)
@@ -600,9 +602,6 @@ class HDArmorPlateWorn:HDArmourWorn{
 			//torso: just kinda uneven
 			addpenshell*=frandom(0.95,1.1);
 		}
-
-		int armourdamage=0;
-
 
 		if(addpenshell>0){
 			//degrade and puff
